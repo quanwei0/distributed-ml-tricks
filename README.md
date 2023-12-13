@@ -6,12 +6,14 @@
 - SGD, SGD with momentum
 - variance reduction (SAG, SAGA, SVRG, SARAH)
 - adaptive gradient (AdaGrad, RMSProp, AdaDelta, Adam)
+- zero-order algorithms
 
 ## Communication Topologies
 
 ### centralized network
 (aka star network, client-server, agent-to-server)
 
+- parallel SGD (FedSGD)
 - local SGD (FedAvg)
 
 ### decentralized network 
@@ -22,6 +24,8 @@
 - multiple gossip communication
 
 ### semi-decentralized network
+
+- periodic global averaging
 
 ### hybrid network
 
